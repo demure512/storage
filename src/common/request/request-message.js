@@ -17,7 +17,7 @@ class Message {
 
   success = (info) => {
     return new Promise((resolve) => {
-      ElMessage.suceess(info);
+      ElMessage.success(info);
       resolve();
     });
   };

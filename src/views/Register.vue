@@ -47,8 +47,6 @@
             style="width: 300px"
         >登录
         </el-button>
-        <br>
-        <a href="/register">还没有账号？注册一个</a>
       </div>
     </el-card>
   </div>
