@@ -33,8 +33,14 @@ import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
 import App from './App.vue'
 
+//导入view-design
+import ViewUIPlus from 'view-ui-plus'
+import store from 'store'
+import 'view-ui-plus/dist/styles/viewuiplus.css'
 
 createApp(App).use(constants).use(router).use(excel).use(request).use(debounce).use(tip).use(loading).use(ElementPlus, {
-    locale: zhCn,
-}).mount('#app');
+    locale: zhCn
+}).use(store).use(ViewUIPlus).mount('#app');
+
+
 

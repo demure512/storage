@@ -52,11 +52,11 @@ const rules = reactive({
   ],
   userPwd: [
     { required: true, message: '请输入密码', trigger: 'blur' },
-    { min: 6, max: 20, message: '密码为6-20位', trigger: 'blur' }
+    { min: 6, max: 20, message: '密码为6-20位', trigger: 'change' }
   ],
   confirmPassword: [
     { required: true, message: '请再次输入密码', trigger: 'blur' },
-    { min: 6, max: 20, message: '密码为6-20位', trigger: 'blur' }
+    { min: 6, max: 20, message: '密码为6-20位', trigger: 'change' }
   ]
 })
 

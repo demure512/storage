@@ -64,8 +64,8 @@ const loginForm = ref();
 const router = useRouter(); // 获取路由器
 
 const loginUser = reactive({
-  userCode: "admin",
-  userPwd: "123456",
+  userCode: "",
+  userPwd: "",
   verificationCode: ""
 });
 
